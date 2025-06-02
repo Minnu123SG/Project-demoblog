@@ -20,7 +20,7 @@ function Displayblog() {
         <div key={blog._id}>
           <h3>{blog.title}</h3>
           <p>{blog.content}</p>
-          <small>By {blog.author}</small>
+          <h4>By {blog.author}</h4>
         </div>
       ))}
     </div>
